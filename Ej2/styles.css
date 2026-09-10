@@ -1,17 +1,32 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Georgia, "Times New Roman", serif;
+    margin: 0;
+    padding: 30px;
+}
+
 .Biografia {
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 700px;
+    max-width: 90%;
+    margin: auto;
 }
+
+h1 {
+    text-align: center;
+    color: #244b74;
+    font-size: 36px;
+}
+
 h2 {
-    font-family: 'Courier New', Courier, monospace;
-    color: #1e15cb;
+    color: #3f6f8f;
+    margin-top: 25px;
 }
-h1{
-    font-family: 'Courier New', Courier, monospace;
-    color:#cb2415;
+
+p {
+    line-height: 1.7;
+    text-align: justify;
 }
-p{
-    font-family: 'times new roman', times, serif;
+
+ul {
+    line-height: 1.7;
 }

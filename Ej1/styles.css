@@ -1,3 +1,43 @@
+body {
+    background-color: #f2f4f7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+}
+
 .Tarjeta {
-    background-color: #a00000;
+    background-color: white;
+    width: 500px;
+    max-width: 90%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.Tarjeta img {
+    width: 160px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.Tarjeta h1 {
+    margin: 10px 0 5px;
+    color: #222;
+}
+
+.Tarjeta h2 {
+    margin: 5px 0 20px;
+    color: #4b6b88;
+    font-size: 20px;
+}
+
+.Tarjeta p {
+    color: #444;
+    line-height: 1.5;
+    text-align: left;
+    margin-bottom: 15px;
 }

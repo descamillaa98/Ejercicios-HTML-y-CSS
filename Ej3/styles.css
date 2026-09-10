@@ -1,17 +1,48 @@
+body {
+    background-color: #1f1f1f;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+}
+
+.tarjeta {
+    background-color: #ffffff;
+    width: 700px;
+    max-width: 90%;
+    margin: auto;
+    padding: 30px;
+
+    border-radius: 15px;
+    border-top: 8px solid #f47521;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
 .tarjeta h1 {
-    margin-bottom: 20px;
-    font-family: 'comic sans ms';
+    color: #f47521;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .tarjeta h2 {
-  margin-bottom: 15px;
-  font-family: 'comic sans ms';
+    color: #242424;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #f47521;
+    padding-bottom: 5px;
 }
 
 .tarjeta p {
-  margin-bottom: 12px;
+    color: #444444;
+    line-height: 1.6;
+    margin-bottom: 15px;
 }
 
 .tarjeta ul {
-  margin-bottom: 20px;
+    line-height: 1.6;
+    padding-left: 25px;
+}
+
+.tarjeta li {
+    margin-bottom: 8px;
 }
