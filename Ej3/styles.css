@@ -1,0 +1,17 @@
+.tarjeta h1 {
+    margin-bottom: 20px;
+    font-family: 'comic sans ms';
+}
+
+.tarjeta h2 {
+  margin-bottom: 15px;
+  font-family: 'comic sans ms';
+}
+
+.tarjeta p {
+  margin-bottom: 12px;
+}
+
+.tarjeta ul {
+  margin-bottom: 20px;
+}
