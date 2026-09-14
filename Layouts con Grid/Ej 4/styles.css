@@ -1,0 +1,20 @@
+.Tarjetas {
+    display: grid;
+
+    grid-template-columns: repeat(3, 90px);
+
+    gap: 0;
+}
+
+.destacada, .card-2, .card-3, .card-4 {
+    height: 70px;
+    border: 1px solid #17496b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.destacada, .card-4 {
+    grid-column: span 2;
+}

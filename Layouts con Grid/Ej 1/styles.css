@@ -1,0 +1,10 @@
+.elementos {
+    background-color: rgb(192, 55, 25);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    border: 1px rgb(36, 11, 202)solid;
+    border-radius: 2px;
+}
